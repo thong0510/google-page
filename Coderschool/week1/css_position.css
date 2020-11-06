@@ -1,0 +1,63 @@
+body {
+    text-align: center;
+    font-family: Roboto, sans-serif;
+    padding: 0 20vw;
+
+}
+
+section {
+    border: 1px solid #464544;
+    margin-bottom: 30px;
+}
+
+.box {
+    text-transform: uppercase;
+    color: #fff;
+    padding:  20px;
+}
+
+.box-blue {
+    background-color:  #1B0CFE ;
+}
+
+.box-green {
+    background-color:  green ;
+}
+
+.box-red {
+    background-color:  red ;
+}
+
+/*  Relative Position */
+#relative .box-red {
+    position: relative;
+    top: 15px;
+    left: 15px;
+}
+
+
+/* absolute position */
+
+#absolute .box-red {
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+}
+
+
+/* fixed position */
+
+#fixed .box-red {
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+}
+
+
+/* sticky position */
+
+#sticky .box-red {
+    position: sticky;
+    bottom: 15px;
+    right: 15px;
+}

@@ -1,0 +1,50 @@
+:root {
+    box-sizing: border-box;
+  }
+  
+  *,
+  ::before,
+  ::after {
+    box-sizing: inherit;
+  }
+  
+  /* make text gmail is like original */
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  /* make text gmail is like original */
+  
+  .search-icon {
+    width: 24px;
+  }
+  .google-mic {
+    width: 32px;
+  }
+  
+  .search-form {
+    background-color: lightblue;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px; / gian cach giua logo google - hop search - nut bam v.v.. /
+  }
+  
+  /* make nav move to right */
+  nav {
+    text-align: right;
+    padding: 10px 20px;
+  }
+  
+  /* make space between */
+  nav .nav-link {
+    margin-right: 10px;
+  }

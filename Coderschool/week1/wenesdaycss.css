@@ -1,0 +1,122 @@
+#assignment1 {
+  background-color: #fff;
+  background-image: linear-gradient(
+      90deg,
+      transparent 79px,
+      #abced4 79px,
+      #abced4 81px,
+      transparent 81px
+    ),
+    linear-gradient(#eee 0.1em, transparent 0.1em);
+  background-size: 100% 1.2em;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+
+
+#assignment1 p {
+    color: blue;
+}
+
+#assignment1 #para1 {
+    color: red;
+}
+
+#assignment1 h1 {
+    color: orange;
+    background-color: paleturquoise;
+}
+
+#assignment1 .header {
+    color: seagreen;
+}
+
+p:first-letter {
+    text-transform: uppercase;
+    font-size: 2em;
+    color: orange;
+}
+
+p {
+    font-style: italic;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header:first-child {
+/*     an hang co khoang trong de lai
+ */    visibility: hidden;
+/*     neu muon an hang ko khoang trong thi
+ */    display: none;
+
+}
+
+
+a:link {
+    color: green;
+    
+}
+
+a:visited {
+    color: darkblue;
+}
+
+a:hover {
+    color: red;
+}
+
+a:active {
+    color: yellow;
+}
+
+
+#assignment3 {
+    font-size: 16px;
+    
+}
+
+/* font size nho dan
+/*  */
+/* li {
+    font-size: smaller;
+} */
+ */
+/* font size nho 0.8 lan so voi truoc
+ */
+
+ li {
+     font-size: 0.8em;
+ }
+
+ #square {
+     background-color: turquoise;
+     width: 40vw;
+     height: 40vw;
+ }
+
+ .box {
+     text-transform: uppercase;
+     color: white;
+     padding: 20px;
+ }
+
+ .box-blue {
+     background-color: blue;
+ }
+ .box-green {
+     background-color: green;
+ }
+ .box-orange {
+     background-color: orange;
+ }
+ .box-yellow {
+     background-color: yellow;
+ }
+
+ .box-square {
+     width: 100px;
+     height: 100px;
+ }
+
+
